@@ -1,0 +1,50 @@
+footer {
+    background-color: #6665DD;
+    color: #B5D6D6;
+}
+
+footer a{
+    color: #B5D6D6;
+}
+
+header{
+    background-color: #A09BE7;
+    display: flex;
+    color: #F4ECD6;
+}
+
+header a{
+    color: #F4ECD6
+}
+
+main{
+    background-color: #FFF2F1;
+    color: #222823;
+}
+
+#logo {
+    height: 100px;
+}
+ul{
+    display: flex;
+}
+
+li{
+    width: 120px;
+}
+
+#principal{
+    height: 600px;
+}
+
+img{
+    height: 150px;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    width: 2000px;
+}
