@@ -3,16 +3,19 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <script>
-        document.write("Bienvenidos a la Libreria Universal, donde encontraras tus libros favoritos             ")
+        document.write("Bienvenidos a la Libreria Universal, donde encontraras tus libros favoritos,             ")
         let nombredeCliente = " ";
         nombredeCliente = prompt("Cual es tu nombre");
-        document.write("Bienvenido " + nombredeCliente);
+        document.write("Hola " + nombredeCliente);
         const edad = parseInt(prompt("Cual es tu edad?"));
         if (edad >= 60) {
             document.write("<p>El ususario es adulto mayor y obtiene descuentos exclusivos</p>");
                     } else {
                         document.write("<p>El usuario no es adulto mayor</p>")
                     }
+        if(edad < 18) {
+            document.write("<p>El usuario es menor de edad, recido 20% de descuento en comics y mangas</p>");
+        }
     </script>
 </head>
 
