@@ -2,6 +2,8 @@
 
 function preguntar_y_escribir(pregunta, prefijo="") {
     let respuesta = prompt(pregunta);
+    if (respuesta=="" ||respuesta == null) return preguntar_y_escribir(pregunta);
+    
     document.write(prefijo + respuesta);
     return respuesta;
 }
@@ -28,3 +30,4 @@ preguntar_y_escribir("Cual es tu correo?", " años y con correo electronico ");
         } else{
             document.write("<p>El usuario es mayor de edad recibe 10% de descuento en Literatura Clasica</p>");
         }
+        alert("Respuestas Validas");
