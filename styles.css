@@ -49,3 +49,7 @@ section{
 article{
     width: 2000px;
 }
+
+.container{
+    display: flex;
+}
